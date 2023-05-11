@@ -1,0 +1,141 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#page{
+    display: flex;
+    width: 700px;
+    height: auto;
+    margin: auto;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+:root{
+    /* definition des variables  */
+    --rouge: #933232;
+    --blanc: #FFFFFF;
+    --noir:black; 
+}
+#gauche{
+    width: 30%;
+    height: auto;
+    background-color: #933232;
+    color: #FFFFFF;
+}
+.image img{
+    border: 1px solid var(black);
+    height: 164px;
+    width: 164px;
+    border-radius: 50%;
+     }
+
+.contenairG{
+    margin-left: 30px;
+}
+    
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.trait{
+    height: 6px;
+    width: 60px;
+   background-color: red;
+   border-radius: 5px;
+   margin-bottom: 10px;
+}
+h4{
+    font-size: 100%;
+    text-transform: uppercase;
+    
+
+}
+.contenairG p{
+    margin: 15px 0 15px 0;
+
+}
+.sa{
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    margin-right: 5px;
+    display: inline-block;
+    background-color: #933232;
+
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 10px;
+
+}
+#droite{
+    width: 70%;
+}
+
+.contenair2{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.googlemali{
+    color: rgb(206, 11, 11);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+li{
+    margin-left: 30px;
+
+}
+.contenair2 h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contenair2 h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contenair2 .pcontenaire{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+ .conteh4  {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.contenair2 .trait{
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+.contenair2 .pp {
+    color: #131111;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.contenair2 .devjava{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.contenair2 .jav{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contenair2 .junior{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.contenair2 .logi{
+    margin-top:px;
+    margin-bottom:5px;
+}
+@media screen and (max-width: 400px)
+{
+    
+    
+    
+}
